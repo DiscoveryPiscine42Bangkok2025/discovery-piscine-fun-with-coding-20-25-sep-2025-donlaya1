@@ -1,0 +1,62 @@
+<!DOCTYPE html>	
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ddouangwa- My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* เปลี่ยนฟอนต์ทั้งหมดเป็น Garamond */
+    body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
+      font-family: Fantasy, cursive;
+    }
+    h2 {
+      color: red;
+    }
+    body {
+      background-color: #FFFFE0; /* light yellow */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">ddoangwa portfolio</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="bam.html">ddoangwa</a></li>
+          <li class="nav-item"><a class="nav-link" href="mick.html">pinthira</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About -->
+  <section id="about" class="container mt-5 pt-5">
+    <h2>About Me</h2>
+    <img src="https://scontent.fbkk6-1.fna.fbcdn.net/v/t1.15752-9/552825106_1279760887233118_8130124924663722012_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=mHsuaUP4JYUQ7kNvwGzkhg3&_nc_oc=Adk039vomz_ks1lvUeL62_gmq97RJcrV7JhaywnJnZWcFni9KCwP4fFkEGyIBueqxro&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fbkk6-1.fna&oh=03_Q7cD3QHa7OF5RdyA78InwIJ5fJTH4y1g9jHLXRSLqRyyDdzs7g&oe=68FC72B7">
+  
+    <p>
+   <p>Hello Hola! My name is Donlaya. 
+   <p>I'm in the first year. I study at Kingkut's Institute of Technology Ladkrabang, studying in the Faculty of Business Administration, majoring in Business Economics and Management.</p>
+  </section>
+
+  <!-- Showcase -->
+  <section id="showcase" class="container mt-5">
+    <h2>Showcase</h2>
+    <ul>
+      <li>Experience : Nothing</li>
+      <li>Adaptability Skill : Still looking forward</li>
+    </ul>
+  </section>
+  
+  <!-- Hobby -->
+  <section id="hobby" class="container mt-5">
+    <h2>Hobby</h2>
+    <ul>
+      <li>PListening to music</li>
+      <li>Reading a book</li>
+    </ul>
+  </section>
